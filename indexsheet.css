@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+ul{
+    /*--全てのulの中黒の点を消す--*/
+    list-style: none;
+}
+
+a{
+    /*--全ての「a」が付いているの文字色を変更する--*/
+    color: #666;
+    /*--全ての「a」が付いているボーダーを消す--*/
+    text-decoration:none;
+}
+
+a:hover{
+    /*--カーソルを合わせた時に文字色を変更する--*/
+    color:#00F;
+  }
+
+
+.header{
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #d9e021;
+    display: flex;
+    align-items:center ;
+}
+
+.header_contents{
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    color: #52b6ac;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navi{
+    margin-left: auto;
+}
+
+.navi ul{
+    display: flex;
+}
+
+.navi ul li{
+    margin-left: 40px;
+}
+
+
+.contents{
+    margin: 0 auto;
+    width: 980px;
+    
+}
+ 
+
+.visual{
+    height: 400px;
+    /*--背景画像の指定--*/
+    background: url(./indeximage/top_bg.jpg);
+    /*--親要素のみ指定可能--*/
+    display: flex;
+    /*--flexboxアイテムの配置する位置を指定--*/
+    align-items: center;
+}
+
+.copy{
+    color: white;
+    margin-left: 100px;
+    font-family: serif;
+    letter-spacing: 5px;
+    
+}
+
+.text_wrapper{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 280x;
+    height: 160px;
+    margin-top: 20px;
+    padding-right: 15px;
+    border-right: 8px solid #666;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+     width: 380px;
+     display: flex;
+     align-items: center;
+}
+
+.lesson{
+    display: flex;
+}
+
+.lesson_img{
+    align-items: center;
+    width: 33%;
+    height: 500px;
+    margin-top: 100px;
+    padding: 0 35px;
+}
+
+.lesson_img img{
+    width: 300px;
+}
+
+.lesson_img h2{
+    text-align: center;
+}
+
+.lesson_img p{
+    text-align:start;
+}
+
+.body{
+    border: solid 2px blue;
+    color: purple;
+    font-size: 25px;
+
+}
+
+.body2{
+    border: solid 2px red;
+}
+
+
+
+
+.footer{
+height: 120px;
+margin-top: 30px;
+background-color: #bec9c9;
+display: flex;
+justify-content: center;
+}
+
+
+.footer_contents{
+    width: 100%;
+    text-align: center;
+    /*--文字を一番下に配置する--*/
+    align-self: flex-end;
+}
+
+
+
+
